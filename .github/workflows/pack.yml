@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          submodules: 'true'
           ref: ${{ github.ref }}
       - name: Notify build
         uses: tsickert/discord-webhook@v6.0.0
