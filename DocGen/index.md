@@ -1,6 +1,6 @@
 ## What is ChemiStar?
 
-ChemiStar is a library that allows you to interace with the periodic table.
+ChemiStar is a library that allows you to interact with the periodic table.
 
 ## What is this web page?
  
