@@ -1,0 +1,17 @@
+<Project Sdk="MSTest.Sdk/3.5.2">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net48</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Shouldly" Version="4.2.1" />
+
+    <PackageReference Remove="Microsoft.SourceLink.GitHub" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChemiStar\ChemiStar.csproj" />
+  </ItemGroup>
+
+</Project>
