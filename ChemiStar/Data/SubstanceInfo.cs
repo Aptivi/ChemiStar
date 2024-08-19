@@ -25,7 +25,6 @@ namespace ChemiStar.Data
     /// <summary>
     /// Substance information
     /// </summary>
-    [JsonSerializable(typeof(SubstanceInfo))]
     [DebuggerDisplay("[{AtomicNumber}] [Period {Period}, Group {Group}] {Name}")]
     public class SubstanceInfo
     {

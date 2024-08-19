@@ -25,7 +25,6 @@ namespace ChemiStar.Data
     /// <summary>
     /// Substance image
     /// </summary>
-    [JsonSerializable(typeof(SubstanceImage))]
     [DebuggerDisplay("{Title} - {Url}")]
     public class SubstanceImage
     {
@@ -39,18 +38,21 @@ namespace ChemiStar.Data
         /// <summary>
         /// Image title
         /// </summary>
+        [JsonIgnore]
         public string Title => 
             title;
 
         /// <summary>
         /// Image URL
         /// </summary>
+        [JsonIgnore]
         public string Url => 
             url;
 
         /// <summary>
         /// Image attribution
         /// </summary>
+        [JsonIgnore]
         public string Attribution => 
             attribution;
 
