@@ -1,0 +1,138 @@
+{
+  "sitemap": {
+    "baseUrl": "https://aptivi.github.io/ChemiStar/"
+  },
+  "source_base_path": "/home/runner/work/ChemiStar/ChemiStar/DocGen",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ChemiStar.Data.SubstanceImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ChemiStar.Data.SubstanceImage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ChemiStar.Data.SubstanceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ChemiStar.Data.SubstanceInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ChemiStar.Data.SubstancePhase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ChemiStar.Data.SubstancePhase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ChemiStar.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ChemiStar.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ChemiStar.Exceptions.NoSubstanceException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ChemiStar.Exceptions.NoSubstanceException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ChemiStar.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ChemiStar.Exceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ChemiStar.PeriodicTableParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ChemiStar.PeriodicTableParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ChemiStar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ChemiStar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
