@@ -32,15 +32,15 @@ fi
 
 # Download packages
 echo Downloading packages...
-"$dotnetpath" msbuild "../ChemiStar.sln" -t:restore -p:Configuration=$releaseconf
+"$dotnetpath" restore "../ChemiStar.sln" --configuration $releaseconf
 if [ ! $? == 0 ]; then
 	echo Download failed.
 	exit 1
 fi
 
 # Build
-echo Building...
-"$dotnetpath" msbuild "../ChemiStar.sln" -p:Configuration=$releaseconf
+echo Building ChemiStar...
+"$dotnetpath" build "../ChemiStar.sln" --configuration $releaseconf
 if [ ! $? == 0 ]; then
 	echo Build failed.
 	exit 1
