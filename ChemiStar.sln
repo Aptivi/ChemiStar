@@ -5,7 +5,12 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChemiStar", "ChemiStar\ChemiStar.csproj", "{0C8F33EC-A0C7-4763-B909-59FE69CFF2EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemiStar.Tests", "ChemiStar.Tests\ChemiStar.Tests.csproj", "{2E3FE771-60D5-4AF9-BED7-E8B905479190}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChemiStar.Tests", "ChemiStar.Tests\ChemiStar.Tests.csproj", "{2E3FE771-60D5-4AF9-BED7-E8B905479190}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{87739C97-A64F-4530-AE27-F7FC2DBFDDC6}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
