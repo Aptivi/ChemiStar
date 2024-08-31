@@ -1,0 +1,13 @@
+We've made this small release to fix the NuGet package repository URLs pointing to the Textify repo instead of this one.
+
+### Changes
+
+This release contains a variety of changes, including, but not limited to:
+
+- `[*]` Fixed package repo URLs
+
+Review the commit history if you want to get a deep insight about the changes.
+
+### Feedback?
+
+If you have issues with this version, report to us by [making a new issue ticket](https://github.com/Aptivi/ChemiStar/issues/new).
