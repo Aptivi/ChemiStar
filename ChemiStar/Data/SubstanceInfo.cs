@@ -92,7 +92,7 @@ namespace ChemiStar.Data
         [JsonInclude]
         private string cpkhex = "";
         [JsonInclude]
-        private SubstanceImage image = null;
+        private SubstanceImage? image = null;
         [JsonInclude]
         private string block = "";
 
@@ -320,7 +320,7 @@ namespace ChemiStar.Data
         /// Substance image information
         /// </summary>
         [JsonIgnore]
-        public SubstanceImage Image => 
+        public SubstanceImage? Image => 
             image;
 
         /// <summary>

@@ -189,8 +189,9 @@ namespace ChemiStar
         {
             // Get the manifest stream that points to the desired periodic table
             var stream = typeof(PeriodicTableParser).Assembly.GetManifestResourceStream("ChemiStar.assets.Periodic_Table_JSON.PeriodicTableJSON.json");
-            var document = JsonNode.Parse(stream)["elements"];
-            var substances = JsonSerializer.Deserialize<SubstanceInfo[]>(document);
+            var document = JsonNode.Parse(stream)?["elements"];
+            var substances = JsonSerializer.Deserialize<SubstanceInfo[]>(document) ??
+                throw new Exception("Can't get a list of chemical substances.");
             cachedSubstances = substances;
         }
 
