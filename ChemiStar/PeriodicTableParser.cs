@@ -19,10 +19,15 @@
 
 using ChemiStar.Data;
 using ChemiStar.Exceptions;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Schema;
 using System;
+using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Nodes;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace ChemiStar
 {
@@ -189,6 +194,19 @@ namespace ChemiStar
         {
             // Get the manifest stream that points to the desired periodic table
             var stream = typeof(PeriodicTableParser).Assembly.GetManifestResourceStream("ChemiStar.assets.Periodic_Table_JSON.PeriodicTableJSON.json");
+
+            // Verify the schema
+            var schemaStream = typeof(PeriodicTableParser).Assembly.GetManifestResourceStream("ChemiStar.assets.Periodic_Table_JSON.schemas.periodicTableJSON.schema");
+            var schemaReader = new StreamReader(schemaStream);
+            var schemaJsonReader = new JsonTextReader(schemaReader);
+            var schema = JSchema.Load(schemaJsonReader);
+            var documentValidatingReader = new StreamReader(stream);
+            var documentValidatingJsonReader = new JsonTextReader(documentValidatingReader);
+            var documentValidating = JToken.Load(documentValidatingJsonReader);
+            documentValidating.Validate(schema);
+            stream.Seek(0, SeekOrigin.Begin);
+
+            // Now, deserialize the substance info
             var document = JsonNode.Parse(stream)?["elements"];
             var substances = JsonSerializer.Deserialize<SubstanceInfo[]>(document) ??
                 throw new Exception("Can't get a list of chemical substances.");
