@@ -18,22 +18,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\README.md">
+    <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="OfficialAppIcon-ChemiStar-512.png">
+    <None Include="..\..\assets\OfficialAppIcon-ChemiStar-512.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="assets\Periodic-Table-JSON\PeriodicTableJSON.json" />
-    <EmbeddedResource Include="assets\Periodic-Table-JSON\schemas\periodicTableJSON.schema" />
+    <EmbeddedResource Include="..\..\assets\Periodic-Table-JSON\PeriodicTableJSON.json" />
+    <EmbeddedResource Include="..\..\assets\Periodic-Table-JSON\schemas\periodicTableJSON.schema" />
   </ItemGroup>
 
   <ItemGroup>

@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ChemiStar\ChemiStar.csproj" />
+    <ProjectReference Include="..\..\public\ChemiStar\ChemiStar.csproj" />
   </ItemGroup>
 
 </Project>

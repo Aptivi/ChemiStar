@@ -3,7 +3,7 @@
         {
             "src": [
                 {
-                    "files": [ "ChemiStar/**.csproj" ],
+                    "files": [ "public/**/*.csproj" ],
                     "src": ".."
                 }
             ],

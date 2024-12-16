@@ -5,7 +5,7 @@
 <br>
     
 <img
-  src = 'https://cdn.jsdelivr.net/gh/Aptivi/ChemiStar@main/ChemiStar/OfficialAppIcon-ChemiStar-512.png'
+  src = 'https://cdn.jsdelivr.net/gh/Aptivi/ChemiStar@main/assets/OfficialAppIcon-ChemiStar-512.png'
   width = 256
   align = center
 />
