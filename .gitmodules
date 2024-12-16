@@ -1,3 +1,3 @@
-[submodule "ChemiStar/assets/Periodic-Table-JSON"]
-	path = ChemiStar/assets/Periodic-Table-JSON
+[submodule "assets/Periodic-Table-JSON"]
+	path = assets/Periodic-Table-JSON
 	url = https://github.com/Bowserinator/Periodic-Table-JSON.git
