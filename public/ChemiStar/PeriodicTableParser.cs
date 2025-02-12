@@ -193,10 +193,10 @@ namespace ChemiStar
         private static void PopulateSubstances()
         {
             // Get the manifest stream that points to the desired periodic table
-            var stream = typeof(PeriodicTableParser).Assembly.GetManifestResourceStream("ChemiStar.assets.Periodic_Table_JSON.PeriodicTableJSON.json");
+            var stream = typeof(PeriodicTableParser).Assembly.GetManifestResourceStream("ChemiStar.PeriodicTableJSON.json");
 
             // Verify the schema
-            var schemaStream = typeof(PeriodicTableParser).Assembly.GetManifestResourceStream("ChemiStar.assets.Periodic_Table_JSON.schemas.periodicTableJSON.schema");
+            var schemaStream = typeof(PeriodicTableParser).Assembly.GetManifestResourceStream("ChemiStar.periodicTableJSON.schema");
             var schemaReader = new StreamReader(schemaStream);
             var schemaJsonReader = new JsonTextReader(schemaReader);
             var schema = JSchema.Load(schemaJsonReader);
