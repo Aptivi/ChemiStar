@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTargets", "private\BuildTargets\BuildTargets.csproj", "{01BC43AA-71A9-4FB5-8501-AFC1C1AB64C0}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChemiStar", "public\ChemiStar\ChemiStar.csproj", "{0C8F33EC-A0C7-4763-B909-59FE69CFF2EE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChemiStar.Tests", "private\ChemiStar.Tests\ChemiStar.Tests.csproj", "{2E3FE771-60D5-4AF9-BED7-E8B905479190}"
@@ -17,8 +19,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Public", "Public", "{3F4BE858-4143-4D55-8ACB-229004032DFF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Private", "Private", "{75AD7905-972C-45C7-A01D-D3EAADD1F029}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTargets", "private\BuildTargets\BuildTargets.csproj", "{01BC43AA-71A9-4FB5-8501-AFC1C1AB64C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
