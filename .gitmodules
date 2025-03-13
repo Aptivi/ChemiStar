@@ -1,3 +1,6 @@
 [submodule "assets/Periodic-Table-JSON"]
 	path = assets/Periodic-Table-JSON
 	url = https://github.com/Bowserinator/Periodic-Table-JSON.git
+[submodule "tools"]
+	path = tools
+	url = https://github.com/Aptivi/tools
