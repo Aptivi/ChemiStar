@@ -71,7 +71,7 @@ namespace ChemiStar
             if (string.IsNullOrEmpty(name))
                 throw new ArgumentException("Substance name is not provided", nameof(name));
             if (!IsSubstanceRegisteredName(name, out SubstanceInfo substance))
-                throw new NoSubstanceException($"There is no substance by this name: {name}");
+                throw new NoSubstanceException("There is no substance by this name:" + $" {name}");
             return substance;
         }
 
@@ -101,7 +101,7 @@ namespace ChemiStar
             if (string.IsNullOrEmpty(symbol))
                 throw new ArgumentException("Substance symbol is not provided", nameof(symbol));
             if (!IsSubstanceRegistered(symbol, out SubstanceInfo substance))
-                throw new NoSubstanceException($"There is no substance by this symbol: {symbol}");
+                throw new NoSubstanceException("There is no substance by this symbol:" + $" {symbol}");
             return substance;
         }
 
@@ -131,7 +131,7 @@ namespace ChemiStar
             if (atomicNumber <= 0 && atomicNumber >= 120)
                 throw new ArgumentOutOfRangeException(nameof(atomicNumber), atomicNumber, "Atomic number may not be less than 1 (Hydrogen) or greater than 119 (Ununennium).");
             if (!IsSubstanceRegistered(atomicNumber, out SubstanceInfo substance))
-                throw new NoSubstanceException($"There is no substance by this atomic number: {atomicNumber}");
+                throw new NoSubstanceException("There is no substance by this atomic number:" + $" {atomicNumber}");
             return substance;
         }
 
@@ -168,7 +168,7 @@ namespace ChemiStar
             if (group <= 0 && group >= 19)
                 throw new ArgumentOutOfRangeException(nameof(group), group, "Group (column) may not be less than 1 or greater than 18.");
             if (!AreSubstancesRegistered(period, group, out SubstanceInfo[] substance))
-                throw new NoSubstanceException($"There are no substances by this period-group position: {period}, {group}");
+                throw new NoSubstanceException("There are no substances by this period-group position:" + $" {period}, {group}");
             return substance;
         }
 
