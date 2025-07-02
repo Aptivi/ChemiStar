@@ -1,0 +1,64 @@
+{
+  "lang": "ptg",
+  "name": "Portuguese",
+  "cultures": [
+    "pt",
+    "pt-AO",
+    "pt-CH",
+    "pt-CV",
+    "pt-GQ",
+    "pt-GW",
+    "pt-LU",
+    "pt-MO",
+    "pt-MZ",
+    "pt-PT",
+    "pt-ST",
+    "pt-TL"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Nome da substância não fornecido"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Não existe nenhuma substância com este nome:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Símbolo da substância não fornecido"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Não existe substância com este símbolo:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Número atómico não pode ser inferior a 1 (Hidrogénio) ou superior a 119 (Unúnnio)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Não existe nenhuma substância com este número atómico:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Período (linha) não pode ser inferior a 1 ou superior a 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Grupo (coluna) não pode ser inferior a 1 ou superior a 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Não há substância com esta posição de período-grupo:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Correspondência não fornecida"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Não é possível obter uma lista de substâncias químicas."
+    }
+  ]
+}

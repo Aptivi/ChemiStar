@@ -1,0 +1,80 @@
+{
+  "lang": "arb-T",
+  "name": "Arabic",
+  "cultures": [
+    "ar",
+    "ar-001",
+    "ar-AE",
+    "ar-BH",
+    "ar-DJ",
+    "ar-DZ",
+    "ar-EG",
+    "ar-ER",
+    "ar-IL",
+    "ar-IQ",
+    "ar-JO",
+    "ar-KM",
+    "ar-KW",
+    "ar-LB",
+    "ar-LY",
+    "ar-MA",
+    "ar-MR",
+    "ar-OM",
+    "ar-PS",
+    "ar-QA",
+    "ar-SA",
+    "ar-SD",
+    "ar-SO",
+    "ar-SS",
+    "ar-SY",
+    "ar-TD",
+    "ar-TN",
+    "ar-YE"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "لم يتم توفير اسم المادة."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "لا توجد مادة بهذا الاسم:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "لم يتم توفير رمز المادة."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "لا توجد مادة بهذا الرمز:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "لا يجوز أن يكون العدد الذري أقل من 1 (للهيدروجين) أو أكبر من 119 (للأحادي النونيوم)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "لا توجد مادة بهذا العدد الذري:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "لا يجوز أن يكون عدد الدورة (الصف) أقل من 1 أو أكبر من 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "لا يجوز أن يكون عدد المجموعة (العمود) أقل من 1 أو أكبر من 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "لا توجد مادة بهذا الموقع بين الدورة والمجموعة:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "لم يتم توفير أداة المطابقة."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "لا يمكن الحصول على قائمة بالمواد الكيميائية."
+    }
+  ]
+}

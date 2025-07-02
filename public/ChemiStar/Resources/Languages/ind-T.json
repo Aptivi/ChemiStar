@@ -1,0 +1,54 @@
+{
+  "lang": "ind-T",
+  "name": "Hindi",
+  "cultures": [
+    "hi",
+    "hi-IN"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "पदार्थ का नाम नहीं दिया गया है"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "इस नाम से कोई पदार्थ नहीं है:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "पदार्थ का प्रतीक नहीं दिया गया है"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "इस प्रतीक से कोई पदार्थ नहीं है:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "परमाणु संख्या 1 (हाइड्रोजन) से कम या 119 (यूनेनियम) से अधिक नहीं हो सकती।"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "इस परमाणु संख्या से कोई पदार्थ नहीं है:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "अवधि (पंक्ति) 1 से कम या 8 से अधिक नहीं हो सकती।"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "समूह (स्तंभ) 1 से कम या 18 से अधिक नहीं हो सकता।"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "इस अवधि-समूह स्थिति से कोई पदार्थ नहीं है:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "मिलानकर्ता प्रदान नहीं किया गया है"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "रासायनिक पदार्थों की सूची नहीं मिल सकती।"
+    }
+  ]
+}

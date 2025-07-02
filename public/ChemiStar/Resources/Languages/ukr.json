@@ -1,0 +1,54 @@
+{
+  "lang": "ukr",
+  "name": "Ukrainian",
+  "cultures": [
+    "uk",
+    "uk-UA"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Назва речовини не вказана"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Речовина з цією назвою відсутня:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Символ речовини не вказано"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Речовина з цим символом відсутня:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Атомний номер не може бути меншим за 1 (водень) або більшим за 119 (унуненій)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Речовина з цим атомним номером відсутня:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Період (рядок) не може бути меншим за 1 або більшим за 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Група (стовпець) не може бути меншою за 1 або більшою за 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Речовина з цією позицією періоду-групи відсутня:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Збіг не вказано"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Не вдається отримати список хімічних речовин."
+    }
+  ]
+}

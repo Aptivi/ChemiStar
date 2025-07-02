@@ -1,0 +1,53 @@
+{
+  "lang": "enk",
+  "name": "English (UK)",
+  "cultures": [
+    "en-GB"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Substance name is not provided"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "There is no substance by this name:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Substance symbol is not provided"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "There is no substance by this symbol:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Atomic number may not be less than 1 (Hydrogen) or greater than 119 (Ununennium)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "There is no substance by this atomic number:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Period (row) may not be less than 1 or greater than 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Group (column) may not be less than 1 or greater than 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "There is no substance by this period-group position:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Matcher is not provided"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Can't get a list of chemical substances."
+    }
+  ]
+}

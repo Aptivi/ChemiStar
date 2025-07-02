@@ -1,0 +1,54 @@
+{
+  "lang": "vtn",
+  "name": "Vietnamese",
+  "cultures": [
+    "vi",
+    "vi-VN"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Tên chất không được cung cấp"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Không có chất nào có tên này:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Ký hiệu chất không được cung cấp"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Không có chất nào có ký hiệu này:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Số nguyên tử không được nhỏ hơn 1 (Hydro) hoặc lớn hơn 119 (Ununennium)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Không có chất nào có số nguyên tử này:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Chu kỳ (hàng) không được nhỏ hơn 1 hoặc lớn hơn 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Nhóm (cột) không được nhỏ hơn 1 hoặc lớn hơn 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Không có chất nào có vị trí chu kỳ-nhóm này:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Không cung cấp công cụ so khớp"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Không thể lấy danh sách các chất hóa học."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "lang": "ger",
+  "name": "German",
+  "cultures": [
+    "de",
+    "de-AT",
+    "de-BE",
+    "de-CH",
+    "de-DE",
+    "de-IT",
+    "de-LI",
+    "de-LU",
+    "nds",
+    "nds-DE",
+    "nds-NL"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Stoffname nicht angegeben"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Es gibt keinen Stoff mit diesem Namen:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Stoffsymbol nicht angegeben"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Es gibt keinen Stoff mit diesem Symbol:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Die Ordnungszahl darf nicht kleiner als 1 (Wasserstoff) oder größer als 119 (Ununennium) sein."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Es gibt keinen Stoff mit dieser Ordnungszahl:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Der Punkt (Zeile) darf nicht kleiner als 1 oder größer als 8 sein."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Die Gruppe (Spalte) darf nicht kleiner als 1 oder größer als 18 sein."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Es gibt keinen Stoff mit dieser Punkt-Gruppen-Position:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Kein Matcher vorhanden"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Es kann keine Liste chemischer Stoffe abgerufen werden."
+    }
+  ]
+}

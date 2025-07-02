@@ -1,0 +1,54 @@
+{
+  "lang": "ind",
+  "name": "Hindi",
+  "cultures": [
+    "hi-Latn",
+    "hi-Latn-IN"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "padaarth ka naam nahin diya gaya hai"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "is naam se koee padaarth nahin hai:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "padaarth ka prateek nahin diya gaya hai"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "is prateek se koee padaarth nahin hai:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "paramaanu sankhya 1 (haidrojan) se kam ya 119 (yooneniyam) se adhik nahin ho sakatee."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "is paramaanu sankhya se koee padaarth nahin hai:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "avadhi (pankti) 1 se kam ya 8 se adhik nahin ho sakatee."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "samooh (stambh) 1 se kam ya 18 se adhik nahin ho sakata."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "is avadhi-samooh sthiti se koee padaarth nahin hai:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "milaanakarta pradaan nahin kiya gaya hai"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "raasaayanik padaarthon kee soochee nahin mil sakatee."
+    }
+  ]
+}

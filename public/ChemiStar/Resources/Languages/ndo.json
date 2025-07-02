@@ -1,0 +1,54 @@
+{
+  "lang": "ndo",
+  "name": "Indonesian",
+  "cultures": [
+    "id",
+    "id-ID"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Nama zat tidak tersedia"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Tidak ada zat dengan nama ini:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Simbol zat tidak tersedia"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Tidak ada zat dengan simbol ini:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Nomor atom tidak boleh kurang dari 1 (Hidrogen) atau lebih dari 119 (Ununennium)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Tidak ada zat dengan nomor atom ini:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Periode (baris) tidak boleh kurang dari 1 atau lebih dari 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Golongan (kolom) tidak boleh kurang dari 1 atau lebih dari 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Tidak ada zat dengan posisi periode-golongan ini:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Pencocok tidak tersedia"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Tidak bisa mendapatkan daftar zat kimia."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "lang": "fre",
+  "name": "French",
+  "cultures": [
+    "fr",
+    "fr-029",
+    "fr-BE",
+    "fr-BF",
+    "fr-BI",
+    "fr-BJ",
+    "fr-BL",
+    "fr-CA",
+    "fr-CD",
+    "fr-CF",
+    "fr-CG",
+    "fr-CH",
+    "fr-CI",
+    "fr-CM",
+    "fr-DJ",
+    "fr-DZ",
+    "fr-FR",
+    "fr-GA",
+    "fr-GF",
+    "fr-GN",
+    "fr-GP",
+    "fr-GQ",
+    "fr-HT",
+    "fr-KM",
+    "fr-LU",
+    "fr-MA",
+    "fr-MC",
+    "fr-MF",
+    "fr-MG",
+    "fr-ML",
+    "fr-MQ",
+    "fr-MR",
+    "fr-MU",
+    "fr-NC",
+    "fr-NE",
+    "fr-PF",
+    "fr-PM",
+    "fr-RE",
+    "fr-RW",
+    "fr-SC",
+    "fr-SN",
+    "fr-SY",
+    "fr-TD",
+    "fr-TG",
+    "fr-TN",
+    "fr-VU",
+    "fr-WF",
+    "fr-YT"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Nom de la substance non fourni"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Il n'existe aucune substance portant ce nom :"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Symbole de la substance non fourni"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Il n'existe aucune substance portant ce symbole :"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Le numéro atomique ne doit pas être inférieur à 1 (hydrogène) ni supérieur à 119 (ununennium)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Il n'existe aucune substance portant ce numéro atomique :"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "La période (ligne) ne doit pas être inférieure à 1 ni supérieure à 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Le groupe (colonne) ne doit pas être inférieur à 1 ni supérieur à 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Il n'existe aucune substance portant ce numéro de période-groupe :"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Le comparateur n'est pas fourni"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Impossible d'obtenir la liste des substances chimiques."
+    }
+  ]
+}

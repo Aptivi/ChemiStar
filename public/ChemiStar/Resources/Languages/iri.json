@@ -1,0 +1,55 @@
+{
+  "lang": "iri",
+  "name": "Irish",
+  "cultures": [
+    "ga",
+    "ga-GB",
+    "ga-IE"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Níor soláthraíodh ainm na substainte"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Níl aon substaint leis an ainm seo:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Níl siombail na substainte curtha ar fáil"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Níl aon substaint leis an siombail seo:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Ní fhéadfaidh an uimhir adamhach a bheith níos lú ná 1 (Hidrigin) ná níos mó ná 119 (Ununennium)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Níl aon substaint leis an uimhir adamhach seo:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Ní fhéadfaidh an tréimhse (sraith) a bheith níos lú ná 1 ná níos mó ná 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Ní fhéadfaidh an grúpa (colún) a bheith níos lú ná 1 ná níos mó ná 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Níl aon substaint leis an suíomh tréimhse-ghrúpa seo:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Níl meaitseáil curtha ar fáil"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Ní féidir liosta de shubstaintí ceimiceacha a fháil."
+    }
+  ]
+}

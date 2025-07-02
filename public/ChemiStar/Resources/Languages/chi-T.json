@@ -1,0 +1,62 @@
+{
+  "lang": "chi-T",
+  "name": "Chinese (Simplified)",
+  "cultures": [
+    "zh",
+    "zh-CN",
+    "zh-HK",
+    "zh-MO",
+    "zh-SG",
+    "zh-Hans",
+    "zh-Hans-CN",
+    "zh-Hans-HK",
+    "zh-Hans-MO",
+    "zh-Hans-SG"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "未提供物质名称"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "没有此名称的物质："
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "未提供物质符号"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "没有此符号的物质："
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "原子序数不得小于1（氢）或大于119（第三族）。"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "没有此原子序数的物质："
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "周期（行）不得小于1或大于8。"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "族（列）不得小于1或大于18。"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "没有此周期-族位置的物质："
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "未提供匹配器"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "无法获取化学物质列表。"
+    }
+  ]
+}

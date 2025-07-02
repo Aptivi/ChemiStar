@@ -1,0 +1,55 @@
+{
+  "lang": "kor-T",
+  "name": "Korean",
+  "cultures": [
+    "ko",
+    "ko-KP",
+    "ko-KR"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "물질명이 제공되지 않았습니다."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "이 이름을 가진 물질이 없습니다."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "물질 기호가 제공되지 않았습니다."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "이 기호를 가진 물질이 없습니다."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "원자 번호는 1(수소)보다 작거나 119(우누넨늄)보다 클 수 없습니다."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "이 원자 번호를 가진 물질이 없습니다."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "주기(행)는 1보다 작거나 8보다 클 수 없습니다."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "족(열)은 1보다 작거나 18보다 클 수 없습니다."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "이 주기-족 위치에 해당하는 물질이 없습니다."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "매칭 프로그램이 제공되지 않았습니다."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "화학 물질 목록을 가져올 수 없습니다."
+    }
+  ]
+}

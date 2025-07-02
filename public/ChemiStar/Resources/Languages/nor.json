@@ -1,0 +1,58 @@
+{
+  "lang": "nor",
+  "name": "Norwegian",
+  "cultures": [
+    "nb",
+    "nb-NO",
+    "nb-SJ",
+    "nn",
+    "nn-NO",
+    "no"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Stoffnavn er ikke oppgitt"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Det finnes ikke noe stoff med dette navnet:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Stoffsymbol er ikke oppgitt"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Det finnes ikke noe stoff med dette symbolet:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Atomnummeret kan ikke være mindre enn 1 (hydrogen) eller større enn 119 (ununennium)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Det finnes ikke noe stoff med dette atomnummeret:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Periode (rad) kan ikke være mindre enn 1 eller større enn 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Gruppe (kolonne) kan ikke være mindre enn 1 eller større enn 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Det finnes ikke noe stoff med denne periode-gruppeposisjonen:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Samsvar er ikke oppgitt"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Kan ikke hente en liste over kjemiske stoffer."
+    }
+  ]
+}

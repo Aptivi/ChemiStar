@@ -1,0 +1,55 @@
+{
+  "lang": "tky",
+  "name": "Turkish",
+  "cultures": [
+    "tr",
+    "tr-CY",
+    "tr-TR"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Madde adı sağlanmadı"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Bu isimde bir madde yok:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Madde sembolü sağlanmadı"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Bu sembolde bir madde yok:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Atom numarası 1'den (Hidrojen) küçük veya 119'dan (Ununennium) büyük olamaz."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Bu atom numarasında bir madde yok:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Periyot (satır) 1'den küçük veya 8'den büyük olamaz."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Grup (sütun) 1'den küçük veya 18'den büyük olamaz."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Bu periyot-grup pozisyonunda bir madde yok:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Eşleştirici sağlanmadı"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Kimyasal maddelerin listesi alınamıyor."
+    }
+  ]
+}

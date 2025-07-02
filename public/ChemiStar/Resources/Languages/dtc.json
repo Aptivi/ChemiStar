@@ -1,0 +1,60 @@
+{
+  "lang": "dtc",
+  "name": "Dutch",
+  "cultures": [
+    "nl",
+    "nl-AW",
+    "nl-BE",
+    "nl-BQ",
+    "nl-CW",
+    "nl-NL",
+    "nl-SR",
+    "nl-SX"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Stofnaam is niet opgegeven"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Er is geen stof met deze naam:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Stofsymbool is niet opgegeven"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Er is geen stof met dit symbool:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Atoomnummer mag niet kleiner zijn dan 1 (waterstof) of groter dan 119 (ununennium)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Er is geen stof met dit atoomnummer:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Periode (rij) mag niet kleiner zijn dan 1 of groter dan 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Groep (kolom) mag niet kleiner zijn dan 1 of groter dan 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Er is geen stof met deze periodegroeppositie:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Matcher is niet opgegeven"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Kan geen lijst met chemische stoffen ophalen."
+    }
+  ]
+}

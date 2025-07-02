@@ -1,0 +1,55 @@
+{
+  "lang": "rmn",
+  "name": "Romanian",
+  "cultures": [
+    "ro",
+    "ro-MD",
+    "ro-RO"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Numele substanței nu este furnizat"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Nu există nicio substanță cu acest nume:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Simbolul substanței nu este furnizat"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Nu există nicio substanță cu acest simbol:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Numărul atomic nu poate fi mai mic de 1 (Hidrogen) sau mai mare de 119 (Ununeniu)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Nu există nicio substanță cu acest număr atomic:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Perioada (rândul) nu poate fi mai mică de 1 sau mai mare de 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Grupul (coloana) nu poate fi mai mic de 1 sau mai mare de 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Nu există nicio substanță cu această poziție perioadă-grup:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Potrivirea nu este furnizată"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Nu se poate obține o listă de substanțe chimice."
+    }
+  ]
+}

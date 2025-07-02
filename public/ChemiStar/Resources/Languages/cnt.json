@@ -1,0 +1,57 @@
+{
+  "lang": "cnt",
+  "name": "Chinese (Traditional)",
+  "cultures": [
+    "zh",
+    "zh-Hant",
+    "zh-Hant-HK",
+    "zh-Hant-MO",
+    "zh-Hant-TW"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Wèi tígōng wùzhí míngchēng"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "méiyǒu cǐ míngchēng de wùzhí:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Wèi tígōng wùzhí fúhào"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "méiyǒu cǐ fúhào de wùzhí:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Yuánzǐ xù shǔ bùdé xiǎoyú 1(qīng) huò dàyú 119(dì sān zú)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Méiyǒu cǐ yuánzǐ xù shǔ de wùzhí:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Zhōuqí (xíng) bùdé xiǎoyú 1 huò dàyú 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Zú (liè) bùdé xiǎoyú 1 huò dàyú 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Méiyǒu cǐ zhōuqí-zú wèizhì de wùzhí:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Wèi tígōng pǐpèi qì"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "wúfǎ qǔdé huàxué wùzhí lièbiǎo."
+    }
+  ]
+}

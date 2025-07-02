@@ -1,0 +1,80 @@
+{
+  "lang": "arb",
+  "name": "Arabic",
+  "cultures": [
+    "ar",
+    "ar-001",
+    "ar-AE",
+    "ar-BH",
+    "ar-DJ",
+    "ar-DZ",
+    "ar-EG",
+    "ar-ER",
+    "ar-IL",
+    "ar-IQ",
+    "ar-JO",
+    "ar-KM",
+    "ar-KW",
+    "ar-LB",
+    "ar-LY",
+    "ar-MA",
+    "ar-MR",
+    "ar-OM",
+    "ar-PS",
+    "ar-QA",
+    "ar-SA",
+    "ar-SD",
+    "ar-SO",
+    "ar-SS",
+    "ar-SY",
+    "ar-TD",
+    "ar-TN",
+    "ar-YE"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "lam yatima tawfir aism almadati."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "la tujad madat bihadha aliasmi:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "lam yatima tawfir ramz almadati."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "la tujad madat bihadha alramzi:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "la yajuz 'an yakun aleadad aldhariyu 'aqala min 1 (llhaydrujin) 'aw 'akbar min 119 (lil'uhadii alnuwnyuma)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "la tujad madat bihadha aleadad aldhariy:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "la yajuz 'an yakun eadad aldawra (alsaf) 'aqala min 1 'aw 'akbar man 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "la yajuz 'an yakun eadad almajmuea (aleamudi) 'aqala min 1 'aw 'akbar min 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "la tujad madat bihadha almawqie bayn aldawrat walmajmueati:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "lam yatima tawfir 'adaat almutabaqati."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "la yumkin alhusul ealaa qayimat bialmawadi alkimyayiyati."
+    }
+  ]
+}

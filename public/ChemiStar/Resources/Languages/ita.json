@@ -1,0 +1,57 @@
+{
+  "lang": "ita",
+  "name": "Italian",
+  "cultures": [
+    "it",
+    "it-CH",
+    "it-IT",
+    "it-SM",
+    "it-VA"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Il nome della sostanza non è fornito"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Non esiste alcuna sostanza con questo nome:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Il simbolo della sostanza non è fornito"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Non esiste alcuna sostanza con questo simbolo:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Il numero atomico non può essere inferiore a 1 (Idrogeno) o superiore a 119 (Ununennio)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Non esiste alcuna sostanza con questo numero atomico:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Il periodo (riga) non può essere inferiore a 1 o superiore a 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Il gruppo (colonna) non può essere inferiore a 1 o superiore a 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Non esiste alcuna sostanza con questa posizione periodo-gruppo:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Il matcher non è fornito"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Impossibile ottenere un elenco di sostanze chimiche."
+    }
+  ]
+}

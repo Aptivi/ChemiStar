@@ -1,0 +1,55 @@
+{
+  "lang": "grk",
+  "name": "Greek",
+  "cultures": [
+    "el",
+    "el-CY",
+    "el-GR"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Δεν παρέχεται όνομα ουσίας"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Δεν υπάρχει ουσία με αυτό το όνομα:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Δεν παρέχεται σύμβολο ουσίας"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Δεν υπάρχει ουσία με αυτό το σύμβολο:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Ο ατομικός αριθμός δεν μπορεί να είναι μικρότερος από 1 (Υδρογόνο) ή μεγαλύτερος από 119 (Ουνουνένιο)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Δεν υπάρχει ουσία με αυτόν τον ατομικό αριθμό:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Η περίοδος (γραμμή) δεν μπορεί να είναι μικρότερη από 1 ή μεγαλύτερη από 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Η ομάδα (στήλη) δεν μπορεί να είναι μικρότερη από 1 ή μεγαλύτερη από 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Δεν υπάρχει ουσία με αυτήν τη θέση περιόδου-ομάδας:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Δεν παρέχεται αντιστοίχιση"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Δεν είναι δυνατή η λήψη λίστας χημικών ουσιών."
+    }
+  ]
+}

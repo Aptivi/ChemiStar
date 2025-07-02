@@ -1,0 +1,57 @@
+{
+  "lang": "mal",
+  "name": "Malay",
+  "cultures": [
+    "ms",
+    "ms-BN",
+    "ms-ID",
+    "ms-MY",
+    "ms-SG"
+  ],
+  "locs": [
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NAMENOTPROVIDED",
+      "text": "Nama bahan tidak diberikan"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME",
+      "text": "Tiada bahan dengan nama ini:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED",
+      "text": "Simbol bahan tidak disediakan"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL",
+      "text": "Tiada bahan dengan simbol ini:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE",
+      "text": "Nombor atom tidak boleh kurang daripada 1 (Hidrogen) atau lebih daripada 119 (Ununennium)."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM",
+      "text": "Tiada bahan mengikut nombor atom ini:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE",
+      "text": "Tempoh (baris) tidak boleh kurang daripada 1 atau lebih daripada 8."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE",
+      "text": "Kumpulan (lajur) tidak boleh kurang daripada 1 atau lebih daripada 18."
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEPERIODGROUP",
+      "text": "Tiada bahan mengikut kedudukan kumpulan tempoh ini:"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_MATCHERISNULL",
+      "text": "Matcher tidak disediakan"
+    },
+    {
+      "loc": "CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED",
+      "text": "Tidak dapat senarai bahan kimia."
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-﻿//
+//
 // ChemiStar  Copyright (C) 2024  Aptivi
 //
 // This file is part of ChemiStar
@@ -19,6 +19,7 @@
 
 using ChemiStar.Data;
 using ChemiStar.Exceptions;
+using ChemiStar.Languages;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Schema;
@@ -55,7 +56,7 @@ namespace ChemiStar
         public static bool IsSubstanceRegisteredName(string name, out SubstanceInfo substance)
         {
             if (string.IsNullOrEmpty(name))
-                throw new ArgumentException("Substance name is not provided", nameof(name));
+                throw new ArgumentException(LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_NAMENOTPROVIDED"), nameof(name));
             return IsSubstanceRegisteredDelegated((si) => si.Name.Equals(name, StringComparison.OrdinalIgnoreCase), out substance);
         }
 
@@ -69,9 +70,9 @@ namespace ChemiStar
         public static SubstanceInfo GetSubstanceFromName(string name)
         {
             if (string.IsNullOrEmpty(name))
-                throw new ArgumentException("Substance name is not provided", nameof(name));
+                throw new ArgumentException(LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_NAMENOTPROVIDED"), nameof(name));
             if (!IsSubstanceRegisteredName(name, out SubstanceInfo substance))
-                throw new NoSubstanceException("There is no substance by this name:" + $" {name}");
+                throw new NoSubstanceException(LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCENAME") + $" {name}");
             return substance;
         }
 
@@ -85,7 +86,7 @@ namespace ChemiStar
         public static bool IsSubstanceRegistered(string symbol, out SubstanceInfo substance)
         {
             if (string.IsNullOrEmpty(symbol))
-                throw new ArgumentException("Substance symbol is not provided", nameof(symbol));
+                throw new ArgumentException(LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED"), nameof(symbol));
             return IsSubstanceRegisteredDelegated((si) => si.Symbol.Equals(symbol, StringComparison.OrdinalIgnoreCase), out substance);
         }
 
@@ -99,9 +100,9 @@ namespace ChemiStar
         public static SubstanceInfo GetSubstance(string symbol)
         {
             if (string.IsNullOrEmpty(symbol))
-                throw new ArgumentException("Substance symbol is not provided", nameof(symbol));
+                throw new ArgumentException(LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_SYMBOLNOTPROVIDED"), nameof(symbol));
             if (!IsSubstanceRegistered(symbol, out SubstanceInfo substance))
-                throw new NoSubstanceException("There is no substance by this symbol:" + $" {symbol}");
+                throw new NoSubstanceException(LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCESYMBOL") + $" {symbol}");
             return substance;
         }
 
@@ -115,7 +116,7 @@ namespace ChemiStar
         public static bool IsSubstanceRegistered(int atomicNumber, out SubstanceInfo substance)
         {
             if (atomicNumber <= 0 && atomicNumber >= 120)
-                throw new ArgumentOutOfRangeException(nameof(atomicNumber), atomicNumber, "Atomic number may not be less than 1 (Hydrogen) or greater than 119 (Ununennium).");
+                throw new ArgumentOutOfRangeException(nameof(atomicNumber), atomicNumber, LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE"));
             return IsSubstanceRegisteredDelegated((si) => si.AtomicNumber == atomicNumber, out substance);
         }
 
@@ -129,9 +130,9 @@ namespace ChemiStar
         public static SubstanceInfo GetSubstance(int atomicNumber)
         {
             if (atomicNumber <= 0 && atomicNumber >= 120)
-                throw new ArgumentOutOfRangeException(nameof(atomicNumber), atomicNumber, "Atomic number may not be less than 1 (Hydrogen) or greater than 119 (Ununennium).");
+                throw new ArgumentOutOfRangeException(nameof(atomicNumber), atomicNumber, LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_ATOMICNUMOUTOFRANGE"));
             if (!IsSubstanceRegistered(atomicNumber, out SubstanceInfo substance))
-                throw new NoSubstanceException("There is no substance by this atomic number:" + $" {atomicNumber}");
+                throw new NoSubstanceException(LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_NOSUCHSUBSTANCEATOMICNUM") + $" {atomicNumber}");
             return substance;
         }
 
@@ -146,9 +147,9 @@ namespace ChemiStar
         public static bool AreSubstancesRegistered(int period, int group, out SubstanceInfo[] substance)
         {
             if (period <= 0 && period >= 9)
-                throw new ArgumentOutOfRangeException(nameof(period), period, "Period (row) may not be less than 1 or greater than 8.");
+                throw new ArgumentOutOfRangeException(nameof(period), period, LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE"));
             if (group <= 0 && group >= 19)
-                throw new ArgumentOutOfRangeException(nameof(group), group, "Group (column) may not be less than 1 or greater than 18.");
+                throw new ArgumentOutOfRangeException(nameof(group), group, LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE"));
             return AreSubstancesRegisteredDelegated((si) => si.Period == period && si.Group == group, out substance);
         }
 
@@ -164,9 +165,9 @@ namespace ChemiStar
         public static SubstanceInfo[] GetSubstances(int period, int group)
         {
             if (period <= 0 && period >= 9)
-                throw new ArgumentOutOfRangeException(nameof(period), period, "Period (row) may not be less than 1 or greater than 8.");
+                throw new ArgumentOutOfRangeException(nameof(period), period, LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_PERIODOUTOFRANGE"));
             if (group <= 0 && group >= 19)
-                throw new ArgumentOutOfRangeException(nameof(group), group, "Group (column) may not be less than 1 or greater than 18.");
+                throw new ArgumentOutOfRangeException(nameof(group), group, LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_GROUPOUTOFRANGE"));
             if (!AreSubstancesRegistered(period, group, out SubstanceInfo[] substance))
                 throw new NoSubstanceException("There are no substances by this period-group position:" + $" {period}, {group}");
             return substance;
@@ -175,7 +176,7 @@ namespace ChemiStar
         private static bool IsSubstanceRegisteredDelegated(Func<SubstanceInfo, bool> matcher, out SubstanceInfo substance)
         {
             if (matcher is null)
-                throw new ArgumentNullException("Matcher is not provided", nameof(matcher));
+                throw new ArgumentNullException(LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_MATCHERISNULL"), nameof(matcher));
             var substances = GetSubstances();
             substance = substances.SingleOrDefault(matcher.Invoke);
             return substance != null;
@@ -184,7 +185,7 @@ namespace ChemiStar
         private static bool AreSubstancesRegisteredDelegated(Func<SubstanceInfo, bool> matcher, out SubstanceInfo[] substances)
         {
             if (matcher is null)
-                throw new ArgumentNullException("Matcher is not provided", nameof(matcher));
+                throw new ArgumentNullException(LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_MATCHERISNULL"), nameof(matcher));
             var allSubstances = GetSubstances();
             substances = allSubstances.Where(matcher.Invoke).ToArray();
             return substances != null && substances.Length > 0;
@@ -209,7 +210,7 @@ namespace ChemiStar
             // Now, deserialize the substance info
             var document = JsonNode.Parse(stream)?["elements"];
             var substances = JsonSerializer.Deserialize<SubstanceInfo[]>(document) ??
-                throw new Exception("Can't get a list of chemical substances.");
+                throw new Exception(LanguageTools.GetLocalized("CHEMISTAR_EXCEPTION_SUBSTANCELISTFAILED"));
             cachedSubstances = substances;
         }
 
