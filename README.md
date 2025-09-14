@@ -36,7 +36,7 @@
 
 <!----------------------------------------------------------------------------->
 
-[Releases]: https://gitlab.com/aptivi/main/ChemiStar/-/releases
+[Releases]: https://github.com/Aptivi/ChemiStar/releases
 [NuGet]: https://www.nuget.org/packages/ChemiStar/
 
 [Libraries]: https://aptivi.gitbook.io/chemistar-manual/project-dependencies
