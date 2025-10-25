@@ -15,9 +15,6 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageIcon>OfficialAppIcon-ChemiStar-512.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    
-    <!-- For cross platform and .NET 8.0+ support -->
-    <AptLocDisableInvalidCultureWarnings>true</AptLocDisableInvalidCultureWarnings>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,15 +28,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="LocaleStation" Version="1.3.2" />
-    <PackageReference Include="LocaleStation.Tools" Version="1.3.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Newtonsoft.Json.Schema" Version="4.0.1" />
     <PackageReference Include="System.Text.Json" Version="8.0.5" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <AdditionalFiles Include="Resources\Languages\*.json" AptLocIsLanguagePath="true" />
   </ItemGroup>
 
 </Project>
