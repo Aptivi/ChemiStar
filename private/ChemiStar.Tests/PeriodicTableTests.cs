@@ -22,6 +22,8 @@ using ChemiStar.Tests.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shouldly;
 
+[assembly: Parallelize]
+
 namespace ChemiStar.Tests
 {
     [TestClass]
@@ -41,7 +43,7 @@ namespace ChemiStar.Tests
             ValidateSubstance(hydrogen, "Hydrogen", "H", 1, 1, 1);
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow("Hydrogen", "Hydrogen", "H", 1, 1, 1)]
         [DataRow("Helium", "Helium", "He", 2, 1, 18)]
         [DataRow("Lithium", "Lithium", "Li", 3, 2, 1)]
@@ -52,8 +54,8 @@ namespace ChemiStar.Tests
             ValidateSubstance(substance, expectedName, expectedSymbol, expectedNumber, expectedPeriod, expectedGroup);
         }
 
-        [DataTestMethod]
-        [DynamicData(nameof(PeriodicTableQueryHelpers.GetPeriodicTableNamesAndExpectedValues), typeof(PeriodicTableQueryHelpers), DynamicDataSourceType.Method)]
+        [TestMethod]
+        [DynamicData(nameof(PeriodicTableQueryHelpers.GetPeriodicTableNamesAndExpectedValues), typeof(PeriodicTableQueryHelpers))]
         public void TestGetSubstanceFromNameAuto(string name, string expectedName, string expectedSymbol, int expectedNumber, int expectedPeriod, int expectedGroup)
         {
             // Get the substance name and test it
@@ -61,7 +63,7 @@ namespace ChemiStar.Tests
             ValidateSubstance(substance, expectedName, expectedSymbol, expectedNumber, expectedPeriod, expectedGroup);
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow("H", "Hydrogen", "H", 1, 1, 1)]
         [DataRow("He", "Helium", "He", 2, 1, 18)]
         [DataRow("Li", "Lithium", "Li", 3, 2, 1)]
@@ -72,8 +74,8 @@ namespace ChemiStar.Tests
             ValidateSubstance(substance, expectedName, expectedSymbol, expectedNumber, expectedPeriod, expectedGroup);
         }
 
-        [DataTestMethod]
-        [DynamicData(nameof(PeriodicTableQueryHelpers.GetPeriodicTableSymbolsAndExpectedValues), typeof(PeriodicTableQueryHelpers), DynamicDataSourceType.Method)]
+        [TestMethod]
+        [DynamicData(nameof(PeriodicTableQueryHelpers.GetPeriodicTableSymbolsAndExpectedValues), typeof(PeriodicTableQueryHelpers))]
         public void TestGetSubstanceFromSymbolAuto(string symbol, string expectedName, string expectedSymbol, int expectedNumber, int expectedPeriod, int expectedGroup)
         {
             // Get the substance symbol and test it
@@ -81,7 +83,7 @@ namespace ChemiStar.Tests
             ValidateSubstance(substance, expectedName, expectedSymbol, expectedNumber, expectedPeriod, expectedGroup);
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, "Hydrogen", "H", 1, 1, 1)]
         [DataRow(2, "Helium", "He", 2, 1, 18)]
         [DataRow(3, "Lithium", "Li", 3, 2, 1)]
@@ -92,8 +94,8 @@ namespace ChemiStar.Tests
             ValidateSubstance(substance, expectedName, expectedSymbol, expectedNumber, expectedPeriod, expectedGroup);
         }
 
-        [DataTestMethod]
-        [DynamicData(nameof(PeriodicTableQueryHelpers.GetPeriodicTableAtomicNumbersAndExpectedValues), typeof(PeriodicTableQueryHelpers), DynamicDataSourceType.Method)]
+        [TestMethod]
+        [DynamicData(nameof(PeriodicTableQueryHelpers.GetPeriodicTableAtomicNumbersAndExpectedValues), typeof(PeriodicTableQueryHelpers))]
         public void TestGetSubstanceFromAtomicNumberAuto(int atomicNumber, string expectedName, string expectedSymbol, int expectedNumber, int expectedPeriod, int expectedGroup)
         {
             // Get the substance symbol and test it
@@ -101,7 +103,7 @@ namespace ChemiStar.Tests
             ValidateSubstance(substance, expectedName, expectedSymbol, expectedNumber, expectedPeriod, expectedGroup);
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "Hydrogen", "H", 1, 1, 1)]
         [DataRow(1, 18, "Helium", "He", 2, 1, 18)]
         [DataRow(2, 1, "Lithium", "Li", 3, 2, 1)]
@@ -112,8 +114,8 @@ namespace ChemiStar.Tests
             ValidateSubstance(substance[0], expectedName, expectedSymbol, expectedNumber, expectedPeriod, expectedGroup);
         }
 
-        [DataTestMethod]
-        [DynamicData(nameof(PeriodicTableQueryHelpers.GetPeriodicTablePositionsAndExpectedValues), typeof(PeriodicTableQueryHelpers), DynamicDataSourceType.Method)]
+        [TestMethod]
+        [DynamicData(nameof(PeriodicTableQueryHelpers.GetPeriodicTablePositionsAndExpectedValues), typeof(PeriodicTableQueryHelpers))]
         public void TestGetSubstancesFromPositionAuto(int period, int group, string expectedName, string expectedSymbol, int expectedNumber, int expectedPeriod, int expectedGroup)
         {
             // Get the substance symbol and test it
