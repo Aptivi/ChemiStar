@@ -95,6 +95,8 @@ namespace ChemiStar.Data
         private SubstanceImage? image = null;
         [JsonInclude]
         private string block = "";
+        [JsonInclude]
+        private SubstanceAtomicRadii? atomic_radii = null;
 
         /// <summary>
         /// Name of this substance
@@ -330,5 +332,11 @@ namespace ChemiStar.Data
         public string Block => 
             block;
 
+        /// <summary>
+        /// Substance atomic radii information
+        /// </summary>
+        [JsonIgnore]
+        public SubstanceAtomicRadii? AtomicRadii =>
+            atomic_radii;
     }
 }
